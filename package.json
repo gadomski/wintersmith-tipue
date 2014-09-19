@@ -1,0 +1,26 @@
+{
+  "name": "wintersmith-tipue",
+  "version": "0.0.1",
+  "description": "A wintersmith plugin for generating a tipue site index",
+  "author": "Pete Gadomski",
+  "license": "MIT",
+  "keywords": [
+    "wintersmith",
+    "wintersmith-plugin"
+  ],
+  "main": "lib/",
+  "dependencies": {},
+  "devDependencies": {
+    "coffee-script": "^1.8.0",
+    "jasmine": "2.x",
+    "jasmine-node": "^1.14.5",
+    "wintersmith": "2.x"
+  },
+  "peerDependencies": {
+    "wintersmith": "2.x"
+  },
+  "scripts": {
+    "test": "./node_modules/jasmine-node/bin/jasmine-node --coffee spec/",
+    "prepublish": "./bin/compile"
+  }
+}
